@@ -27,10 +27,6 @@ My pipeline consisted of 5 steps. First, I converted the images to grayscale, th
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by first calculating the slope of left and right lanes. Then I divide them to two groups(left and right lanes) and get the intercept through x1, x2, y1, y2 on lanes. Finally, I substitute the slope and intercept I get into points that is determined to be on the start and end of the lane. Do this step to both left and right lanes in order to draw the whole thick red lanes.
 
-And the result is shown as followed image: 
-
-![alt image1][./test_images_output/solidWhiteCurve.jpg_output.jpg]
-
 
 ### 2. Identify potential shortcomings with your current pipeline
 
